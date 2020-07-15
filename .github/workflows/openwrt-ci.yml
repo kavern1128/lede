@@ -75,7 +75,7 @@ jobs:
           
       - name: SSH connection to Actions
         uses: P3TERX/debugger-action@master
-        if: env.SSH_ACTIONS == 'false'
+        if: env.SSH_ACTIONS == 'true'
 
 
       - name: Costom configure file
